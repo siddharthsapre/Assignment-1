@@ -1,0 +1,4344 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "b53f697d-0d83-400b-9408-df252fd56291",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "fbcdd846-36d0-4aad-ba66-9031c2efd063",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "25"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5*5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "45077ab3-fb8a-475f-849b-955261391dc1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "d1bbbdb3-2327-4335-b1a0-a8265fde5158",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "e62660ad-7b0d-4331-a962-9c99975a81bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "5b4ce608-426c-4ee4-a8b6-3720b63dfb70",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "sudh = 20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "da1a0da9-1c76-4229-8a04-25acd8c58735",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "20"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sudh"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "b954a05e-9196-4815-8aa0-25090a1c479f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a+sudh"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "da50468a-8756-4d12-991d-3e040f5e2cd1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "68c2a664-dae5-48fa-bfbb-7de14e9c5a0b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(sudh)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "eb125b6a-55e4-418d-a5e6-001fa1fd9f9f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b = 2.09"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "6b056dd8-8900-4a2f-8a53-22cd538b337e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "c25d2085-189c-4987-8964-f73e309d5156",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c = 45.23345"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "85a0f6d7-27ea-4029-b34c-f7550489ebaf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "4b947bc9-a94b-404b-8d7e-114c523d9e7f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d = \"sudhanshu\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "94b9ddc3-7099-4cb7-b509-b23653baf4d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "91e83bc6-c387-48cd-92fb-14b9c4808fb4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "e = 'this is my first tech class'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "5d403197-4fde-478d-8977-ae91ecdec4b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(e)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "0cc73f08-4bde-4847-8c16-e975b1e05aaa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "n = True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "1f85263d-1b17-4493-a3d5-64902404114f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "bool"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "18ac286b-3805-436b-826b-59a306db3888",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m = False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "4e053485-bbd4-4418-bd5d-3a1e4d3bc2c9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "bool"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(m)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "3ea329d7-88eb-4e79-a164-a4371cf6e972",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "n+m"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "5a416539-a876-4821-8d04-5a5d20f14690",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "True * True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "21997906-ef07-441b-aac9-965b6bef643f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "True * False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "6db21975-3ace-4ec2-89d4-e7f68081b19b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ZeroDivisionError",
+     "evalue": "division by zero",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mZeroDivisionError\u001b[0m                         Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[40], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;28;43;01mTrue\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;241;43m/\u001b[39;49m\u001b[43m \u001b[49m\u001b[38;5;28;43;01mFalse\u001b[39;49;00m \n",
+      "\u001b[0;31mZeroDivisionError\u001b[0m: division by zero"
+     ]
+    }
+   ],
+   "source": [
+    "True / False "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "8084a6ad-ee8c-4689-be01-ef3964e9038c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ZeroDivisionError",
+     "evalue": "division by zero",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mZeroDivisionError\u001b[0m                         Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[41], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;241;43m1\u001b[39;49m\u001b[43m \u001b[49m\u001b[38;5;241;43m/\u001b[39;49m\u001b[38;5;241;43m0\u001b[39;49m\n",
+      "\u001b[0;31mZeroDivisionError\u001b[0m: division by zero"
+     ]
+    }
+   ],
+   "source": [
+    "1 /0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "237cde5b-cc21-4f20-95f0-70684dbc6137",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "sudh = 5 + 8j"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "7fd576ce-a98d-4653-afee-ad7cf9912f30",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "complex"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(v)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "fee76e3e-7d36-4f8c-bded-d7d941d2cfd4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5.0"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sudh.real"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "117c2b3f-0114-482b-9d5b-cfda32089672",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8.0"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sudh.imag"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "172be6f1-51fc-4f7c-91b1-2e0c6046af35",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(5+8j)"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sudh"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "21de426d-f6fa-44bf-b292-7ed62b6dcda7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my name is sudhanshu\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"my name is sudhanshu\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "b82caaeb-f0d7-48f3-9782-d3e8b583df04",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "bb779fb6-a661-44b7-9e0d-7796f273eebd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(5+8j)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(sudh)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "f3465387-b4f1-44d1-a17b-19788bd36482",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"pwskills\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "7896a834-d38f-44bb-8352-8bdb7c28458b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "bffb0dcd-db77-42c6-afc5-12381457aade",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'p'"
+      ]
+     },
+     "execution_count": 64,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "9ebf78f3-8b05-47e7-b5c7-e2a5ec5c796c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'s'"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "b6d9d76f-bfd6-4339-9553-63f8b488289c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'k'"
+      ]
+     },
+     "execution_count": 66,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "16782a4b-94bd-41aa-b4c8-99a8ab88ac06",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'s'"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "86b4609a-6701-4542-8740-5d0c9045697b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'p'"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "1cf0e36d-28a2-4c8d-aa8b-fb3e8d9c965e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pws'"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0:3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "685a4cb1-9ded-4390-b8bc-4f85da718d06",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pw'"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "c5617e15-46ca-490c-9c06-3e02dc38549d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwsk'"
+      ]
+     },
+     "execution_count": 71,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0:4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "1603163c-9962-4c03-be2b-8e7e4ed32d93",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'psil'"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0:8:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "bc03eca4-472e-4acf-b816-0644675d3f0f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwsk'"
+      ]
+     },
+     "execution_count": 73,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0:4:1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "809e9dd4-557d-46a2-8787-9220c2e248d8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'psil'"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[::2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "1cdfbf87-5fed-42e1-87aa-5c861c6aa9c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'psil'"
+      ]
+     },
+     "execution_count": 75,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0::2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "43133a45-02d8-4511-b2f9-2770e4d3637d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sil'"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[2::2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "f3fce780-e143-41fe-a957-4c16bdaef16c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'skills'"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[2::1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "38a6700c-ecd6-4072-bcca-9205744ca184",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sllikswp'"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ddc0a420-7178-4542-8be3-2a881b352cbf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 141,
+   "id": "97bb85d2-e66b-4b03-a060-34a339c15b0f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 141,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "405efddc-f443-463f-a730-5dcf214eb054",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[2:7:-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "78f3e702-b5b9-4d41-ab90-94f1cac41c47",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 81,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[8:0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "2012e3c3-246f-49ed-ad41-7341156a4b67",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sllikswp'"
+      ]
+     },
+     "execution_count": 86,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[8::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "278af980-b48c-4750-9f18-91bac590fed6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'lliksw'"
+      ]
+     },
+     "execution_count": 84,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-2 : -8 : -1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "af275dde-7925-4b0b-ae23-cf8aba205adb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'llikswp'"
+      ]
+     },
+     "execution_count": 85,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-2 : : -1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "a8f29017-08ec-4d20-8c2d-a6d7999d7227",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sllikswp'"
+      ]
+     },
+     "execution_count": 89,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "3c30e5b0-9ffe-4027-b1a8-cc42dc8f84cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 91,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[::]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "a68f3cc9-c764-4a78-9feb-209648662685",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 93,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[:-90:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "99fb168e-6372-4268-acc2-5a445c0dbe5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndexError",
+     "evalue": "string index out of range",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[92], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43ms\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;241;43m90\u001b[39;49m\u001b[43m]\u001b[49m\n",
+      "\u001b[0;31mIndexError\u001b[0m: string index out of range"
+     ]
+    }
+   ],
+   "source": [
+    "s[90]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "67695afd-28a9-464b-af5e-d675a8504b88",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sllikswp'"
+      ]
+     },
+     "execution_count": 95,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[:-90000:-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "57379ec1-c81c-472e-a106-150e7bb97eb2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c = 200"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "20895ab2-dee5-4849-a317-3f9172310365",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1 = \"this is my string class\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "cecca0bc-88d6-4e28-a00e-c32c2c55c7a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "23"
+      ]
+     },
+     "execution_count": 99,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(s1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "74bba9d6-ac28-45d7-a814-408a116feecd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 100,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.find('s')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "799c78af-43d5-4db8-a50f-08e3e19ae869",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 101,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.find('i')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "edb86932-ee9b-4836-ae44-96268d03c794",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 102,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.find(\"is\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 134,
+   "id": "4bd1bbb6-64b5-430c-9b9d-93cfc16434e6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-1"
+      ]
+     },
+     "execution_count": 134,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#this is a code to find a charecterd of sub string in string \n",
+    "s1.find(\"iS\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "54b4a244-61a9-40ad-8b7e-ec8a701e16cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.count('s')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "id": "9bd9757a-c4a2-46dd-919f-435a7c6d4561",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is my string class'"
+      ]
+     },
+     "execution_count": 105,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "84cdf888-5d18-48f1-abb7-5dfacf488716",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 106,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.count(\"st\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "id": "bd654c46-a03e-420d-8b72-5ab4595da8e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 107,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.count('z')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "8e7f6eed-0f58-4f04-afea-9d12c8ff03c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is my string class'"
+      ]
+     },
+     "execution_count": 108,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "700c6fda-eb0f-4d2d-9e32-f6037a666e48",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'THIS IS MY STRING CLASS'"
+      ]
+     },
+     "execution_count": 109,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "19d4b1c4-2a8d-4028-a75b-b5baa96398ee",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s2 = 'THIS IS MY STRING CLASS'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "378742c9-25e4-43c4-b6be-a61214f4124c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'THIS IS MY STRING CLASS'"
+      ]
+     },
+     "execution_count": 111,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "0681412e-b278-43d8-9141-7a4427e275b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is my string class'"
+      ]
+     },
+     "execution_count": 112,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s2.lower()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "b11139ef-ee48-48e5-b8ba-d1f8aa6908f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is my string class'"
+      ]
+     },
+     "execution_count": 113,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "da15bb5d-72b3-4854-a818-19b1e96a1fdd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'This Is My String Class'"
+      ]
+     },
+     "execution_count": 114,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.title()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "f3bcd4f0-7ac5-45c3-99f3-204f9f4f79d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'This is my string class'"
+      ]
+     },
+     "execution_count": 115,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.capitalize()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "2b51f51a-691a-40b3-80db-00bb7e1a2f56",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 116,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "id": "7d771270-fd9e-417b-8057-1ce704c52c6d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "can only concatenate str (not \"int\") to str",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[117], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43ms\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m+\u001b[39;49m\u001b[43m \u001b[49m\u001b[38;5;241;43m1\u001b[39;49m\n",
+      "\u001b[0;31mTypeError\u001b[0m: can only concatenate str (not \"int\") to str"
+     ]
+    }
+   ],
+   "source": [
+    "s + 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "e33d03a4-2a41-4bf3-811b-2a5f6b760f4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills sudh'"
+      ]
+     },
+     "execution_count": 120,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s + \" sudh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "0a71bfe0-f50b-4341-9016-95d9efe3ac5e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills1'"
+      ]
+     },
+     "execution_count": 121,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s + '1'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 122,
+   "id": "ccff93e3-5f2f-4400-b9e6-4c5df7d861f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills1'"
+      ]
+     },
+     "execution_count": 122,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s+ str(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "6139b5d5-4f5a-4762-9ff1-b471a5e5b0f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskillspwskillspwskills'"
+      ]
+     },
+     "execution_count": 123,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s * 3 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "7c0ebf56-d6e2-4b76-a8ec-a56a017509d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sudhsudhsudhsudh'"
+      ]
+     },
+     "execution_count": 124,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'sudh' *4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "4848a53b-c42c-49c8-af4a-9f271d2ec420",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "unsupported operand type(s) for /: 'str' and 'int'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[125], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43msudh\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[43m \u001b[49m\u001b[38;5;241;43m/\u001b[39;49m\u001b[43m \u001b[49m\u001b[38;5;241;43m4\u001b[39;49m\n",
+      "\u001b[0;31mTypeError\u001b[0m: unsupported operand type(s) for /: 'str' and 'int'"
+     ]
+    }
+   ],
+   "source": [
+    "\"sudh\" / 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "b1b63319-404b-4059-8770-4d3cf5446922",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\"don't do copy and paste in my class\""
+      ]
+     },
+     "execution_count": 127,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"don't do copy and paste in my class\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "5713cafe-63fd-4503-b437-9b8a2dfdb99a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'don\"t do copy and paste in my class'"
+      ]
+     },
+     "execution_count": 129,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'don\"t do copy and paste in my class'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "2ec0c8c9-a3bf-4643-b108-c4e1af3dfc0f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s3 = \"\"\"This is my first class for programming\n",
+    "i have leant variable declaration , data type , string , int , boolean , complex number \n",
+    "i have seen some example of string slicing and indexing \n",
+    "i have gone though some of the string inbuilt function \n",
+    "apart from that i am trying to practice in my system \n",
+    "but some of us in our calss are not executing code and still they are answering which is bad \"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 140,
+   "id": "87ca83d6-809b-4140-87ff-f6ac1058f9c1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'This is my first class for programming\\ni have leant variable declaration , data type , string , int , boolean , complex number \\ni have seen some example of string slicing and indexing \\ni have gone though some of the string inbuilt function \\napart from that i am trying to practice in my system \\nbut some of us in our calss are not executing code and still they are answering which is bad '"
+      ]
+     },
+     "execution_count": 140,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 142,
+   "id": "2acdd76e-53d8-439e-8368-575db820fb68",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 142,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 143,
+   "id": "5cc0c634-1580-4d21-9f18-899deff3dfb9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sllikswp'"
+      ]
+     },
+     "execution_count": 143,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 145,
+   "id": "4ea52474-1098-4520-b86e-7d74174a8ba0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'P'"
+      ]
+     },
+     "execution_count": 145,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-8::-1].upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 146,
+   "id": "d2f9105f-cf70-4ed5-9104-6c50c355d464",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"rohan\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 147,
+   "id": "aca3fbb4-ae1f-45d7-869c-e686bcf74536",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'rohan'"
+      ]
+     },
+     "execution_count": 147,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 148,
+   "id": "03632572-b563-4483-82bc-450c477d1c57",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rohan\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 149,
+   "id": "4c644085-cc4f-4a69-a2ae-0049f43f79a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ahor'"
+      ]
+     },
+     "execution_count": 149,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-2::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 152,
+   "id": "76e5f39b-95dc-48f0-9bb2-2182d8dc0271",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"pwskills\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 153,
+   "id": "d849e4c4-4210-481d-aad1-1c09c141d78f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'llikswp'"
+      ]
+     },
+     "execution_count": 153,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-2::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 156,
+   "id": "64db01dc-559f-4b85-b3b0-916082aee184",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s4= \"\"\"Iam praharshitha\n",
+    "im in second year\n",
+    "i want to learn python\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 157,
+   "id": "0a90d2e1-7a0d-46a1-8a8d-4d5ab22d5975",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Iam praharshitha\\nim in second year\\ni want to learn python'"
+      ]
+     },
+     "execution_count": 157,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 158,
+   "id": "54e0339e-b713-4b2e-82f7-2787ceec801b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'slliksw'"
+      ]
+     },
+     "execution_count": 158,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[:-8:-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 159,
+   "id": "8b687cfe-8bce-4646-a749-afa59f5d5ee9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 159,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 161,
+   "id": "e4597a56-e615-483c-a0ff-7b88117ab465",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskillspwskillspwskills'"
+      ]
+     },
+     "execution_count": 161,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s * 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 162,
+   "id": "1caeead6-2815-4120-98a9-520bd9233316",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"pwskills \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 163,
+   "id": "27a27801-10d0-4c6a-97a9-240e42cf9baf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills pwskills pwskills '"
+      ]
+     },
+     "execution_count": 163,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s*3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 166,
+   "id": "4d8d27bf-854f-4d0d-8251-794dba7c7d3d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 168,
+   "id": "59944f83-f92e-480a-a6e6-f9f613530a4c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b = 3\n",
+    "c = 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 171,
+   "id": "c234b677-0422-45a2-84b1-d5fcaec53ad1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills '"
+      ]
+     },
+     "execution_count": 171,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 172,
+   "id": "2835a083-8adf-4707-bb9f-bf48f596bebb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = 'myskill'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 173,
+   "id": "65a1509a-59f0-4b1c-a218-9594ed8b3894",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'liksym'"
+      ]
+     },
+     "execution_count": 173,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-2::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d58f768a-5dee-4cd7-966a-2a2199c330ee",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# jkfhsajasf\n",
+    "# fasdfhiasfhd\n",
+    "# ihasdufh\n",
+    "# iuhasdfias\n",
+    "# hoasdofasf\n",
+    "# hiuohasdofs\n",
+    "# hlohasfdsa"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 175,
+   "id": "7a48d672-2c85-40cd-a4c4-97b815bc6bae",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"pwskill\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 176,
+   "id": "fda1c693-4a59-44a3-af64-0f9450bedcc0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'s'"
+      ]
+     },
+     "execution_count": 176,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[2:3:1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 177,
+   "id": "3bc25384-865e-4ab3-8055-aa9fdff390bc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 10 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f6cb0b0b-de10-4a65-8d63-8d21fd273f32",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "a0cfe61c-43c0-4f51-bc0b-443cc477dd95",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m=\"My Name is siddharth sapre\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "947575ea-663b-471a-b7c5-1bc5cda581d5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'My Name is siddharth sapre'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "8485e023-6bde-4f73-9336-d0373ef59ad1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.find(\"s\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "af78cf42-b513-43ea-997a-4d2c494933bc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.count(\"s\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "ae37970a-4be7-4439-a3e5-f895b084d3e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'My Name Is Siddharth Sapre'"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.title()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "4920dc64-db20-4dcc-9257-abc30cf55183",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'My name is siddharth sapre'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.capitalize()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "18189baa-dc0c-4c59-9eeb-dc6b57e2b0d2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k=m.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "f8c34ee6-d8dc-4a58-a728-7d92240bc940",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'MY NAME IS SIDDHARTH SAPRE'"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "9044e796-6396-4683-89e3-141951ae3124",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'my name is siddharth sapre'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k.lower()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "e0ef7ee1-ddc5-40cd-960a-0c7e1bd7f168",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "o=1,2,3,4,5,6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "5666e574-26e3-49a6-a855-51e594d937dc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(1, 2, 3, 4, 5, 6)"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "o"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "9ecdc208-db2b-4731-8c49-f23dc164acb7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(6, 5, 4, 3, 2, 1)"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "o[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "dd55a9c7-5ac3-4c06-9b31-e2accec37397",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(1, 3, 5)"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "o[0:5:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "b8d0bfd5-a4aa-49b4-b545-92689d79450e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'tuple' object has no attribute 'str'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[19], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mo\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mstr\u001b[49m()\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'str'"
+     ]
+    }
+   ],
+   "source": [
+    "o.str()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "6cf95193-ea80-4a4d-af82-a970a8aa862a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(o)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "5f2dec63-469d-454b-8328-4d4ef64e61ed",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "o=12345"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "14833021-d18f-4134-a80a-9c2b7fbf39c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12345"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "o"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "67d25a44-91bf-4d25-abf5-ee77fd3fc5a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'int' object has no attribute 'str'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[23], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mo\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mstr\u001b[49m()\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'int' object has no attribute 'str'"
+     ]
+    }
+   ],
+   "source": [
+    "o.str()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "901e6501-5adb-4591-bbeb-16346bb2e869",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'12345'"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str(o)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "e9de7112-e19a-4093-9628-f0a518242808",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " k=[1,2,3,4,\"siddharth\",4.5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "589597ff-6e0f-4c34-9565-f29b9e4b355f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'siddharth', 4.5]"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "82639de8-088e-482f-89ce-ac7f1ad78766",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(k)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "0442bc25-d882-4e9f-8f2c-425056469f20",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k.count(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "b48b726f-5c0e-43ab-b15e-cd7f3fb110f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(k)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "6bca3abd-3da7-4cd2-8912-2a909da63207",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[4.5, 'siddharth', 4, 3, 2, 1]"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "b8529833-cc71-48dc-9328-bab10fce5b8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'siddharth'"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k[4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "7f874004-7c8e-450d-add3-652e28470952",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "j=k[4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "c0b44212-a38e-4161-b7da-97975b39f6ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'siddharth'"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "j"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "25c669f9-e4d5-4aaa-a613-d747475d32c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'si'"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "j[0:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "2f3daedb-19ac-48a7-ad6f-b2639599bd7c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k.append(\"loader\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "fd574c65-f62d-4cf2-bc2c-8c7c3caea2a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'siddharth', 4.5, 'loader']"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "a8d6a5d5-91c6-43a0-bc74-c6ac2c9a5ef6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k.append([\"loader\",\"foader\",1234])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "281a6e8d-5006-4b5a-9a9a-03209466f765",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'siddharth', 4.5, 'loader', ['loader', 'foader', 1234]]"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "d4d1b56a-8df4-491b-b070-74b087b4e4ea",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k.insert(5,\"fuck\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "5ed7d7b3-7d3e-4d17-961d-17fb59064e6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'siddharth', 'fuck', 4.5, 'loader', ['loader', 'foader', 1234]]"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "d7ba140b-1684-45bb-a2a1-272e81e4ea42",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k.pop(3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "9744bb53-984e-470f-89cf-c6c81a16b3fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 'siddharth', 'fuck', 4.5, 'loader', ['loader', 'foader', 1234]]"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "035a6e6e-151c-42d2-bf8d-2a8611dec241",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k.remove(\"siddharth\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "58ade7f3-152b-469c-8eb6-b0760d05dd2c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 'fuck', 4.5, 'loader', ['loader', 'foader', 1234]]"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "147e751c-cd33-49e3-9355-628f7426e0f6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p=[1,2,3,445,664,889,321]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "c465fc8d-30ed-467b-9078-b12d583dd456",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 445, 664, 889, 321]"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "p"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "4db107e3-6da8-4627-9467-b0cdb5abec72",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p.sort()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "254fa10e-79b3-4dc3-ada7-60a0da43f677",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 321, 445, 664, 889]"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "p"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "edaaaf92-0108-4038-9abf-1c934955cabd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p.sort(reverse=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "2e932e37-ee21-4120-825b-724efae91107",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[889, 664, 445, 321, 3, 2, 1]"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "p"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "e1010cc3-56d1-44f1-b6ce-2d01a975b2c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k.index(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "56732547-d3b0-45e4-8601-54629357961a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 64,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k.index(4.5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "a05205ec-e4a7-43a5-88ba-f06bf8fb76a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    " k.count(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "677f5d31-48d4-495f-a71f-2d07c5cba928",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "z=(225,669,\"siddharth\",6.5,[\"rameshwar\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "303f47df-5f34-4bf4-8ebf-8281e14a1d08",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(225, 669, 'siddharth', 6.5, ['rameshwar'])"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "e85a25dd-d369-4342-9cc7-02926e900bcd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(['rameshwar'], 6.5, 'siddharth', 669, 225)"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "ed61faf9-3438-47f0-a97c-ccb85e08499e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l={2,2,5,6,8,8,9,\"siddharth\",\"z\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "9dbc03d2-d838-41e2-a8aa-abe707e5fb89",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "z=(225,669,\"siddharth\",6.5,[\"rameshwar\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "12200319-2f4e-4b05-a834-2260132fb921",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{2, 5, 6, 8, 9, 'siddharth', 'z'}"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "18a4968c-2f1d-457a-af45-725432cd7eb9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "set"
+      ]
+     },
+     "execution_count": 73,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "859a9f27-5fba-4a0e-8e72-8ef136b5b27b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l.add(\"xx\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "f342e639-4d13-4857-b5f4-ba23aae1dd8f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{2, 5, 6, 8, 9, 'siddharth', 'xx', 'z'}"
+      ]
+     },
+     "execution_count": 75,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "2218cb1a-d601-4298-81e9-eae9df71eba0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l.remove(\"siddharth\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "d406ba78-43af-486f-99bd-c02ac2f616f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{2, 5, 6, 8, 9, 'xx', 'z'}"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "f693f416-6471-40a4-b78e-0288f235fe0d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m={\"First Name\":\"Siddharth\",\"Second Name\":\"Sapre\",\"Age\":\"39\",\"Sex\":\"M\",\"d\":\"[123,225,665]\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "ade024a8-e89b-4954-b5f5-d462fc95519e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'First Name': 'Siddharth',\n",
+       " 'Second Name': 'Sapre',\n",
+       " 'Age': '39',\n",
+       " 'Sex': 'M',\n",
+       " 'd': '[123,225,665]'}"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "579b6aee-73f2-4792-882b-e540f32182c3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "dictionary update sequence element #0 has length 1; 2 is required",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[86], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mm\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mupdate\u001b[49m\u001b[43m(\u001b[49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43mSex\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43m225\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[43m)\u001b[49m\n",
+      "\u001b[0;31mValueError\u001b[0m: dictionary update sequence element #0 has length 1; 2 is required"
+     ]
+    }
+   ],
+   "source": [
+    "m.update(\"Sex\"\"225\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "67dea94c-bd04-4bad-887c-e035ee56ea29",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m[\"Mentor\"]=[\"kapil\",\"rogesr\",\"daughter\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "17c2c65d-0835-405c-b034-31546beb3f4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'First Name': 'Siddharth',\n",
+       " 'Second Name': 'Sapre',\n",
+       " 'Age': '39',\n",
+       " 'Sex': 'M',\n",
+       " 'd': '[123,225,665]',\n",
+       " 'Mentor': ['kapil', 'rogesr', 'daughter']}"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "30adc0c7-9066-4865-80a3-fa9381f0e7b5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "del m[\"Mentor\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "6e63f379-77db-4a77-babc-be8651732d15",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'First Name': 'Siddharth',\n",
+       " 'Second Name': 'Sapre',\n",
+       " 'Age': '39',\n",
+       " 'Sex': 'M',\n",
+       " 'd': '[123,225,665]'}"
+      ]
+     },
+     "execution_count": 90,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "36cdf78b-513e-4d48-8b37-f6a5c431d3f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_keys(['First Name', 'Second Name', 'Age', 'Sex', 'd'])"
+      ]
+     },
+     "execution_count": 92,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.keys()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "dcb1ebeb-0ba3-4185-9021-bd7b1d19553e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['First Name', 'Second Name', 'Age', 'Sex', 'd']"
+      ]
+     },
+     "execution_count": 93,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(m.keys())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "e08712e0-2a14-4926-9bb0-8164de780be4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_values(['Siddharth', 'Sapre', '39', 'M', '[123,225,665]'])"
+      ]
+     },
+     "execution_count": 94,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.values()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "5ff032be-ff49-42cc-b9d0-63ab24853ed6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('Siddharth', 'Sapre', '39', 'M', '[123,225,665]')"
+      ]
+     },
+     "execution_count": 95,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tuple(m.values())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "c7e8b905-27e5-438d-8119-20840c4a92f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_items([('First Name', 'Siddharth'), ('Second Name', 'Sapre'), ('Age', '39'), ('Sex', 'M'), ('d', '[123,225,665]')])"
+      ]
+     },
+     "execution_count": 96,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 97,
+   "id": "bf154d90-c2ac-4277-8be2-7eccbd5312ae",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_items"
+      ]
+     },
+     "execution_count": 97,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(m.items())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "63050fd0-39d3-4fec-9b73-82e5101db3d5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "CreatingDictonary={\"Name\":\"Siddharth\",\"Last name\":\"Sapre\",\"Age\":\"39\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "89184751-14c7-4c2b-ae32-acebf0504793",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth', 'Last name': 'Sapre', 'Age': '39'}"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CreatingDictonary"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "040a4ab4-9b2d-4a31-bbf2-c3e643f495f9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m={\"First Name\":\"Siddharth\",\"Second Name\":\"Sapre\",\"Age\":\"39\",\"Sex\":\"M\",\"d\":\"[123,225,665]\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "3c77caff-e5c9-4ffe-b4e1-acdbdab6b5c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'First Name': 'Siddharth',\n",
+       " 'Second Name': 'Sapre',\n",
+       " 'Age': '39',\n",
+       " 'Sex': 'M',\n",
+       " 'd': '[123,225,665]'}"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "a59b7a68-2dc4-484a-b1bb-35136511c81b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "CD={\"Name\":\"Siddharth\",\"Sex\":\"Male\",\"Location\":\"71/62 Mahabiran Lane Mutthianj Allahabad\",\"Percentage Scored\":[45,55,65,78],\"Marks allocated\":(25,65,75,89),\"Level of Accuracy\":{\"Name\":\"Kallu Mama\",\"Surname\":\"Raghav Das\"}}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "e2180e86-84a7-4ce3-8f3b-69a410725573",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth',\n",
+       " 'Sex': 'Male',\n",
+       " 'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89),\n",
+       " 'Level of Accuracy': {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}}"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "be954e2e-6e91-47de-abe2-e1600e651660",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Kallu Mama'"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD[\"Level of Accuracy\"][\"Name\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "1d5acbcb-534e-4d79-892b-08a0960d4c48",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "65"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD[\"Percentage Scored\"][2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "5e485e86-f6ab-4259-8f1f-c852fc9a0c56",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "CD[\"Jumping Fucking\"]:\"Aishwarya Gautam Madarchod\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "de065131-ddda-4f5e-b30d-ab302fccbd61",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth',\n",
+       " 'Sex': 'Male',\n",
+       " 'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89),\n",
+       " 'Level of Accuracy': {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}}"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "30e2855d-6ae7-4b39-bbcc-b7d721c13496",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "del CD[\"Sex\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "a601b0ca-e235-4094-92ac-79e37e715cd6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth',\n",
+       " 'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89),\n",
+       " 'Level of Accuracy': {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}}"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "f1bd9d33-6787-42e9-ae4c-ed5dc64045fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_keys(['Name', 'Location', 'Percentage Scored', 'Marks allocated', 'Level of Accuracy'])"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD.keys()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "d2438ba3-663d-4e90-b2e2-7c7934e6a21f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Name',\n",
+       " 'Location',\n",
+       " 'Percentage Scored',\n",
+       " 'Marks allocated',\n",
+       " 'Level of Accuracy']"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(CD.keys())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "b61f5c4e-fe0a-4d06-8a43-7aef58a59728",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_items([('Name', 'Siddharth'), ('Location', '71/62 Mahabiran Lane Mutthianj Allahabad'), ('Percentage Scored', [45, 55, 65, 78]), ('Marks allocated', (25, 65, 75, 89)), ('Level of Accuracy', {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'})])"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "b8d3e481-d21a-4fa5-9687-bac2a40cb88f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_values(['Siddharth', '71/62 Mahabiran Lane Mutthianj Allahabad', [45, 55, 65, 78], (25, 65, 75, 89), {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}])"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD.values()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "8921206c-4efe-44e3-9566-b735ab51f64a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k=list(CD.items())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "06cca6fb-e5fb-4af7-9794-e8120ef3a7ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Siddharth'"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD.pop(\"Name\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "33776577-7fde-4a42-a7bd-893cdfe140a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89),\n",
+       " 'Level of Accuracy': {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}}"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "6fbfb7b0-1509-4380-8f08-12b560c129ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[('Location', '71/62 Mahabiran Lane Mutthianj Allahabad'),\n",
+       " ('Percentage Scored', [45, 55, 65, 78]),\n",
+       " ('Marks allocated', (25, 65, 75, 89)),\n",
+       " ('Level of Accuracy', {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'})]"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "0230a2e5-1913-417e-8789-533c3e962137",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('Level of Accuracy', {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'})"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k.pop()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "b2b91ab6-01a1-4288-ad78-136a382ab561",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'CD' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[3], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mCD\u001b[49m[\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mMentor\u001b[39m\u001b[38;5;124m\"\u001b[39m]\u001b[38;5;241m=\u001b[39m[\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mKallu Mama\u001b[39m\u001b[38;5;124m\"\u001b[39m]\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'CD' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "CD[\"Mentor\"]=[\"Kallu Mama\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "fffe33d1-e0bc-4fd3-80b3-010f7d34583a",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'CD' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[4], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mCD\u001b[49m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'CD' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "c8529074-077b-4157-91a8-ff3592dee871",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'k' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[5], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mk\u001b[49m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'k' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9eb3e702-2fb3-4d6b-9b75-71d301d65fa9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "06762a83-30af-43e0-9399-1a46cb5dcd0c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "CD={\"Name\":\"Siddharth\",\"Sex\":\"Male\",\"Location\":\"71/62 Mahabiran Lane Mutthianj Allahabad\",\"Percentage Scored\":[45,55,65,78],\"Marks allocated\":(25,65,75,89),\"Level of Accuracy\":{\"Name\":\"Kallu Mama\",\"Surname\":\"Raghav Das\"}}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "8ce47678-741a-4642-ba0a-76de3ecb11d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth',\n",
+       " 'Sex': 'Male',\n",
+       " 'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89),\n",
+       " 'Level of Accuracy': {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}}"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "8f7959c7-5259-46f5-a5e9-4bbdfd0191f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "KeyError",
+     "evalue": "'Mentor'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[10], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mCD\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43mMentor\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[43m]\u001b[49m\n",
+      "\u001b[0;31mKeyError\u001b[0m: 'Mentor'"
+     ]
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "6e9a3ba5-dd51-4ece-b092-3811de6e8f46",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "CD[\"Mentor\"]=[\"Siddharth Sapre\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "4551b443-d4bd-4fc6-a9bd-bb7b1fa64ce4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth',\n",
+       " 'Sex': 'Male',\n",
+       " 'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89),\n",
+       " 'Level of Accuracy': {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'},\n",
+       " 'Mentor': ['Siddharth Sapre']}"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "6fbcbab3-281d-4858-9e13-0132d02486e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_items([('Name', 'Siddharth'), ('Sex', 'Male'), ('Location', '71/62 Mahabiran Lane Mutthianj Allahabad'), ('Percentage Scored', [45, 55, 65, 78]), ('Marks allocated', (25, 65, 75, 89)), ('Level of Accuracy', {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}), ('Mentor', ['Siddharth Sapre'])])"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "895ebc2f-6c66-499f-9105-4f9d90e5c2bc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "del CD[\"Mentor\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "cbcbd931-d551-4fd2-97cb-a182a3a33f6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth',\n",
+       " 'Sex': 'Male',\n",
+       " 'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89),\n",
+       " 'Level of Accuracy': {'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}}"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "01407301-998c-4b08-9213-7060ab0ac5ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Kallu Mama', 'Surname': 'Raghav Das'}"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD.pop(\"Level of Accuracy\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "a4b44c13-0bb2-4df5-98ce-daa06bf52f7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Name': 'Siddharth',\n",
+       " 'Sex': 'Male',\n",
+       " 'Location': '71/62 Mahabiran Lane Mutthianj Allahabad',\n",
+       " 'Percentage Scored': [45, 55, 65, 78],\n",
+       " 'Marks allocated': (25, 65, 75, 89)}"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "40486569-3632-4ae5-9007-d64ec0e90e48",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "778d3b46-81fa-4da9-ac90-e3f592d1bb37",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "CD"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "76cbdd83-2ad5-42d5-a8e5-1b7823da30c5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=[45,55,65,5.5,\"Sidd\",\"Sapre\",\"Mali\",\"Bhai\",6.5,8.5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "804067b5-e940-4bd3-a05a-429ef08680d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[45, 55, 65, 5.5, 'Sidd', 'Sapre', 'Mali', 'Bhai', 6.5, 8.5]"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "ac6aeff3-2df4-4b67-a993-85725048bf06",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2892688413.py, line 6)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[12], line 6\u001b[0;36m\u001b[0m\n\u001b[0;31m    else :\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "l1_num = []\n",
+    "l2_str = []\n",
+    "for i in l :\n",
+    "    if type(i) == int or type(i) == float:\n",
+    "        l1_num.append(i)\n",
+    "        else :\n",
+    "            l2_str.append(i)\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9ab60f2b-a821-440d-a0ea-d5c4db8d680d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+
